@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  margin-left: 10px;
+	color: black;
+}
+button {
+	border-radius: 5px;
+	margin-left: 5px;
+	font-family: Helvetica, Times;
+	background-color: #95FD34;
+}
+#deleteItem {
+  background-color: #FD4334;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+#itemList {
+	width: 300px;
+	margin-top: 1%;
+}
+.itemlst {
+	list-style-type: none;
+}
+.itemName {
+	margin: 5px 7px;
+}
+.itemBlock {
+  margin: 10px;
+	border: solid;
+	padding: 3%;
+}
+.itemName {
+	margin: 5px 7px;
+}
+.checkedItem {
+	text-decoration: line-through;
+}
